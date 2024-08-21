@@ -4,6 +4,7 @@ import ItemList from "../../ItemsArea/ItemList/ItemList";
 import Cart from "../../ItemsArea/Cart/Cart";
 import Register from "../../AuthArea/Register/Register";
 import Login from "../../AuthArea/Login/Login";
+import DealItems from "../../ItemsArea/DealItems/DealItems";
 
 function Routing(): JSX.Element {
     return (
@@ -13,6 +14,7 @@ function Routing(): JSX.Element {
                 <Route path="/cart" element={<Cart />}></Route>
                 <Route path="/register" element={<Register/>}></Route>
                 <Route path="/login" element={<Login/>}></Route>
+                <Route path="/deals" element={<DealItems/>}></Route>
                 
             </Routes>
         </div>
